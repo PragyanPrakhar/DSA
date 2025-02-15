@@ -7,29 +7,42 @@ import java.util.*;
 
 // } Driver Code Ends
 // User function Template for Java
-
 class Solution {
     public int minimizeCost(int k, int arr[]) {
-        // code here
         int dp[]=new int[arr.length+1];
         Arrays.fill(dp,-1);
-        return findingMinCost(arr,k,arr.length-1,dp);
-    }
-    private int findingMinCost(int[] arr,int k,int ind,int[] dp)
-    {
-        if(ind<=0) return 0;
-        if(dp[ind]!=-1) return dp[ind];
-        int mSteps=Integer.MAX_VALUE;
-        for(int i=1;i<=k;i++)
+        dp[0]=0;
+        for(int i=1;i<arr.length;i++)
         {
-            if(ind-i >= 0)
+            int mmSteps=Integer.MAX_VALUE;
+            for(int j=1;j<=k;j++)
             {
-                int jump=findingMinCost(arr,k,ind-i,dp)+Math.abs(arr[ind]-arr[ind-i]);
-                mSteps=Math.min(mSteps,jump);
+                if(i-j >=0)
+                {
+                    int jump=dp[i-j]+Math.abs(arr[i]-arr[i-j]);
+                    mmSteps=Math.min(mmSteps,jump);
+                }
             }
+            dp[i]=mmSteps;
         }
-        return dp[ind]=mSteps;
+        
+        return dp[arr.length-1];
     }
+    // private int findingMinCost(int[] arr,int k,int ind,int[] dp)
+    // {
+    //     if(ind<=0) return 0;
+    //     if(dp[ind]!=-1) return dp[ind];
+    //     int mSteps=Integer.MAX_VALUE;
+    //     for(int i=1;i<=k;i++)
+    //     {
+    //         if(ind-i >= 0)
+    //         {
+    //             int jump=findingMinCost(arr,k,ind-i,dp)+Math.abs(arr[ind]-arr[ind-i]);
+    //             mSteps=Math.min(mSteps,jump);
+    //         }
+    //     }
+    //     return dp[ind]=mSteps;
+    // }
 }
 
 
