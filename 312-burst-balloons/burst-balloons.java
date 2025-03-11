@@ -1,14 +1,26 @@
 class Solution {
     public int maxCoins(int[] nums) {
         ArrayList<Integer> arr = new ArrayList<>();
-        int dp[][]=new int[nums.length+1][nums.length+1];
-        for(int[] ar:dp) Arrays.fill(ar,-1);
+        int dp[][]=new int[nums.length+2][nums.length+2];
         arr.add(1);
         for (int i : nums) {
             arr.add(i);
         }
         arr.add(1);
-        return solve(1, arr.size() - 2, arr, dp);
+
+        // Tabulation Approach -> Bottom Up.
+        for(int i=nums.length;i>=1;i--){
+            for(int j=i;j<=nums.length;j++){
+                // if(i>j) continue;
+                int maxi=Integer.MIN_VALUE;
+                for(int ind=i;ind<=j;ind++){
+                    int temp=arr.get(i-1)*arr.get(ind)*arr.get(j+1)+dp[i][ind-1]+dp[ind+1][j];
+                    maxi=Math.max(maxi,temp);
+                }
+                dp[i][j]=maxi;
+            }
+        }
+        return dp[1][nums.length];
     }
 
     private int solve(int i, int j, ArrayList<Integer> arr, int dp[][] ) {
