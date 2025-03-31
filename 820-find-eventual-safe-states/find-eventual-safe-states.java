@@ -11,31 +11,29 @@ class Solution {
 
         List<Integer> ans = new ArrayList<>();
         for (int i = 0; i < n; i++) {
-            // if (!vis[i]) {
-                if (dfs(i, graph, vis, pathVis,safeNodes)) {
-                    ans.add(i);
-                }
-            // }
+            if (dfs(i, graph, vis, pathVis,safeNodes)) {
+                ans.add(i);
+            }
         }
         return ans;
     }
 
     private boolean dfs(int node, int[][] graph, boolean vis[], boolean pathVis[], boolean safeNodes[]) {
-        if(safeNodes[node]) return true;
-        vis[node] = true;
+        if (safeNodes[node])
+            return true;
+        // vis[node] = true;
         pathVis[node] = true;
         for (int neighbor : graph[node]) {
-            if (!vis[neighbor]) {
-                if (!dfs(neighbor, graph, vis,pathVis,safeNodes)) {
+            if (!pathVis[neighbor]) {
+                if (!dfs(neighbor, graph, vis, pathVis, safeNodes)) {
                     return false;
                 }
-            }
-            else if (pathVis[neighbor] == true) {
+            } else if (pathVis[neighbor] == true) {
                 return false;
             }
         }
         pathVis[node] = false;
-        safeNodes[node]=true;
+        safeNodes[node] = true;
         return true;
     }
 }
