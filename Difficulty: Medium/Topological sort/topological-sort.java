@@ -58,28 +58,34 @@ class Solution {
     // Function to return list containing vertices in Topological order.
     static ArrayList<Integer> topologicalSort(ArrayList<ArrayList<Integer>> adj) {
         // Your code here
-        boolean vis[]=new boolean[adj.size()];
-        ArrayList<Integer> ans=new ArrayList<>();
-        Stack<Integer> stack=new Stack<>();
+        int indegree[]=new int[adj.size()];
         for(int i=0;i<adj.size();i++){
-            if(!vis[i]){
-                dfs(adj,ans,stack,vis,i);
+            for(int it:adj.get(i)){
+                indegree[it]++;
             }
         }
-        while(!stack.isEmpty()){
-            ans.add(stack.pop());
+        ArrayList<Integer> ans=new ArrayList<>();
+        Queue<Integer> q=new LinkedList<>();
+        for(int i=0;i<indegree.length;i++){
+            if(indegree[i]==0){
+                q.add(i);
+            }
+        }
+        while(!q.isEmpty()){
+            int node=q.peek();
+            q.remove();
+            ans.add(node);
+            for(int it:adj.get(node)){
+                // indgree[it]--;
+                if(indegree[it]!=0){
+                    indegree[it]--;
+                }
+                
+                if(indegree[it]==0){
+                    q.add(it);
+                }
+            }
         }
         return ans;
-    }
-    private static void dfs(ArrayList<ArrayList<Integer>> adj,ArrayList<Integer> ans,Stack<Integer> stack,boolean vis[],int node){
-        vis[node]=true;
-        for(int it:adj.get(node)){
-            if(!vis[it]){
-                dfs(adj,ans,stack,vis,it);
-                // stack.push(it);
-            }
-        }
-        stack.push(node);
-        
     }
 }
