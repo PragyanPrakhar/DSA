@@ -1,43 +1,42 @@
 class Solution {
-    private boolean isPossible(String a, String b) {
-        int m = a.length();
-        int n = b.length();
-        if(n-m!=1) return false;
-        int i = 0;
-        int j = 0;
-        int count = 0;
-        while (j < n) {
-            if (j < n && i < m && a.charAt(i) == b.charAt(j)) {
-                i++;
-                j++;
-            } else {
-                count++;
-                if (count > 1)
-                    return false;
-                j++;
-            }
-        }
-        if (i == m)
-            return true;
-        return false;
-    }
-
     public int longestStrChain(String[] words) {
-        Arrays.sort(words, (a, b) -> a.length() - b.length());
-        int dp[] = new int[words.length];
-        int maxi = Integer.MIN_VALUE;
-        Arrays.fill(dp, 1);
-        for (int i = 0; i < dp.length; i++) {
-            for (int j = 0; j < i; j++) {
-                if (isPossible(words[j], words[i])) {
-                    dp[i] = Math.max(dp[i],dp[j] + 1);
+        int n=words.length;
+        int dp[]=new int[n];
+        Arrays.fill(dp,1);
+        int max=0;
+        Arrays.sort(words,(a,b)->a.length()-b.length());
+        for(int i=0;i<n;i++){
+            for(int j=0;j<i;j++){
+                if(isPossible(words[j],words[i])){
+                    dp[i]=Math.max(dp[i],1+dp[j]);
                 }
             }
-            if (dp[i] > maxi) {
-                maxi = dp[i];
+            if(dp[i]>max){
+                max=dp[i];
             }
         }
-        return maxi;
-
+        return max;
+    }
+    private  boolean isPossible(String s,String t){
+        if((t.length()-s.length())!=1){
+            return false;
+        }
+        int m=s.length();
+        int n=t.length();
+        int i=0;
+        int count=0;
+        int j=0;
+        while(i<m && j<n){
+            if(s.charAt(i)==t.charAt(j)){
+                i++;
+                j++;
+            }
+            else{
+                if(count>1) return false;
+                count++;
+                j++;
+            }
+        }
+        return i==m;
     }
 }
