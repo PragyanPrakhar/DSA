@@ -1,18 +1,18 @@
 class Solution {
     public int lengthOfLIS(int[] nums) {
         int n=nums.length;
-        int count=0;
-        int dp[]=new int[n];
-        int maxi=Integer.MIN_VALUE;
-        Arrays.fill(dp,1);
-        for(int i=0;i<dp.length;i++){
-            for(int prev=0;prev<i;prev++){
-                if(nums[prev]<nums[i]){
-                    dp[i]=Math.max(dp[i],1+dp[prev]);
-                }
-            }
-            maxi=Math.max(maxi,dp[i]);
+        int dp[][]=new int[n][n];
+        for(int ar[]:dp) Arrays.fill(ar,-1);
+        return solve(-1,dp,0,nums);
+    }
+    private int solve(int prevIndex,int dp[][],int currentIndex,int nums[]){
+        if(currentIndex>=nums.length) return 0;
+        if(dp[prevIndex+1][currentIndex]!=-1) return dp[prevIndex+1][currentIndex];
+        int not_take=solve(prevIndex,dp,currentIndex+1,nums);
+        int take=0;
+        if(prevIndex==-1 || nums[prevIndex]<nums[currentIndex]){
+            take=1+solve(currentIndex,dp,currentIndex+1,nums);
         }
-        return maxi;
+        return dp[prevIndex+1][currentIndex]=Math.max(take,not_take);
     }
 }
