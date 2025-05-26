@@ -1,25 +1,27 @@
 class Solution {
     public int countSubstrings(String s) {
-        int count=0;
-        for(int i=0;i<s.length();i++){
-            for(int j=i+1;j<=s.length();j++){
-                if(isPallindrome(s.substring(i,j))){
-                    count++;
-                }
-            }
+        int count = 0;
+
+        for (int center = 0; center < s.length(); center++) {
+            // Odd-length palindromes (e.g., "aba")
+            count += expandFromCenter(s, center, center);
+
+            // Even-length palindromes (e.g., "abba")
+            count += expandFromCenter(s, center, center + 1);
         }
+
         return count;
     }
-    private boolean isPallindrome(String s){
-        int i=0;
-        int j=s.length()-1;
-        while(i<=j){
-            if(s.charAt(i)!=s.charAt(j)){
-                return false;
-            }
-            i++;
-            j--;
+
+    private int expandFromCenter(String s, int left, int right) {
+        int count = 0;
+
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            count++;     // We found a palindrome from index left to right
+            left--;      // Expand to the left
+            right++;     // Expand to the right
         }
-        return true;
+
+        return count;
     }
 }
