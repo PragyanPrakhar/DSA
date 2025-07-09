@@ -1,20 +1,23 @@
+
 class Solution {
     public int trap(int[] height) {
-        int lMax[]=new int[height.length];
-        int rMax[]=new int[height.length];
-        int n=height.length;
-        lMax[0]=height[0];
-        rMax[n-1]=height[n-1];
-        for(int i=1;i<n;i++){
-            lMax[i]=Math.max(lMax[i-1],height[i]);
+        int l = 0, r = height.length - 1; // Initialize two pointers, one at the beginning and one at the end of the height array
+        int leftMax = -1, rightMax = -1; // Initialize variables to store the maximum height encountered so far from the left and right sides
+        int water = 0; // Initialize a variable to store the total trapped water
+
+        // Traverse the height array from both ends towards each other until the pointers meet
+        while (l < r) {
+            leftMax = Math.max(leftMax, height[l]); // Update the maximum height encountered from the left side
+            rightMax = Math.max(rightMax, height[r]); // Update the maximum height encountered from the right side
+
+            // Calculate the trapped water based on the lower maximum height encountered so far (between leftMax and rightMax)
+            // If leftMax is less than rightMax, the current height at index l can trap water, otherwise, the current height at index r can trap water
+            if (leftMax <= rightMax)
+                water += leftMax - height[l++];
+            else
+                water += rightMax - height[r--];
         }
-        for(int j=n-2;j>=0;j--){
-            rMax[j]=Math.max(rMax[j+1],height[j]);
-        }
-        int ans=0;
-        for(int i=0;i<n;i++){
-            ans+= Math.min(lMax[i],rMax[i])-height[i];
-        }
-        return ans;
+
+        return water; // Return the total trapped water
     }
 }
