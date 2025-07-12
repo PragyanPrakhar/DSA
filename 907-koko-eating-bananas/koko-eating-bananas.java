@@ -15,16 +15,13 @@ class Solution {
         }
         return left;
     }
-
     public boolean canEat(int piles[], int k, int h) {
         int hours = 0;
         for (int pile : piles) {
-            int div = pile / k;
-            hours += div;
-            if (pile % k != 0) {
-                hours++;
-            }
+            if (hours > h)
+                return false;
+            hours += (pile % k == 0) ? pile / k : (pile / k) + 1;
         }
-        return hours <= h;
+        return h >= hours;
     }
 }
