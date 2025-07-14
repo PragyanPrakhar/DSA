@@ -1,39 +1,42 @@
 class Solution {
     public int findCircleNum(int[][] isConnected) {
-        int numVertices = isConnected.length;
-        ArrayList<ArrayList<Integer>> arr = new ArrayList<>();
-        for (int i = 0; i < numVertices; i++) {
-            arr.add(new ArrayList<Integer>());
-        }
-        int p = 0;
-        for (int[] ar : isConnected) {
-            for (int i = 0; i < ar.length; i++) {
-                if (i != p && ar[i] == 1) {
-                    arr.get(p).add(i);
+        int n = isConnected.length;
+        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
+        for (int i = 0; i < n; i++) adj.add(new ArrayList<>());
+
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (isConnected[i][j] == 1) {
+                    adj.get(i).add(j);
+                    adj.get(j).add(i);
                 }
             }
-            p++;
         }
-        boolean vis[] = new boolean[isConnected.length + 1];
-        int count = 0;
-        for(int i=0;i<numVertices;i++){
-            if(vis[i]==false){
-                count++;
-                dfs(i,numVertices,vis,arr);
+        boolean[] visited = new boolean[n];
+        int provinces = 0;
+        for (int i = 0; i < n; i++) {
+            if (!visited[i]) {
+                bfs(i, adj, visited);
+                provinces++;
             }
         }
-        return count;
+
+        return provinces;
     }
 
-    private void dfs(int source,int numVertices,boolean vis[],ArrayList<ArrayList<Integer>> arr){
-        vis[source]=true;
-        for(int it:arr.get(source)){
-            if(vis[it]==false){
-                // count++;
-                // vis[it]=true;
-                dfs(it,numVertices,vis,arr);
+    private void bfs(int start, ArrayList<ArrayList<Integer>> adj, boolean[] visited) {
+        Queue<Integer> q = new LinkedList<>();
+        q.offer(start);
+        visited[start] = true;
+
+        while (!q.isEmpty()) {
+            int node = q.poll();
+            for (int neighbor : adj.get(node)) {
+                if (!visited[neighbor]) {
+                    visited[neighbor] = true;
+                    q.offer(neighbor);
+                }
             }
         }
     }
-
 }
