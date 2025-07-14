@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/PragyanPrakhar/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/PragyanPrakhar/DSA/tree/master/0036-valid-sudoku) |
 | [0128-longest-consecutive-sequence](https://github.com/PragyanPrakhar/DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0146-lru-cache](https://github.com/PragyanPrakhar/DSA/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/PragyanPrakhar/DSA/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/PragyanPrakhar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/PragyanPrakhar/DSA/tree/master/0424-longest-repeating-character-replacement) |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/PragyanPrakhar/DSA/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/PragyanPrakhar/DSA/tree/master/0155-min-stack) |
 ## Backtracking
 |  |
@@ -149,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0086-partition-list](https://github.com/PragyanPrakhar/DSA/tree/master/0086-partition-list) |
+| [0146-lru-cache](https://github.com/PragyanPrakhar/DSA/tree/master/0146-lru-cache) |
 ## Database
 |  |
 | ------- |
@@ -167,4 +170,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0792-binary-search](https://github.com/PragyanPrakhar/DSA/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/PragyanPrakhar/DSA/tree/master/0907-koko-eating-bananas) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/PragyanPrakhar/DSA/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
