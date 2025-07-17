@@ -24,13 +24,13 @@ class Solution {
             int node = q.peek();
             q.remove();
             topoSort.add(node);
-            for(int it:adj.get(node)){
+            for (int it : adj.get(node)) {
                 indegree[it]--;
-                if(indegree[it]==0){
+                if (indegree[it] == 0) {
                     q.add(it);
                 }
             }
         }
-        return topoSort.size()==numCourses;
+        return topoSort.size() == numCourses;
     }
 }
