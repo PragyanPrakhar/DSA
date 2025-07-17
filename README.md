@@ -206,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/PragyanPrakhar/DSA/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/PragyanPrakhar/DSA/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/PragyanPrakhar/DSA/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/PragyanPrakhar/DSA/tree/master/0801-is-graph-bipartite) |
@@ -214,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/PragyanPrakhar/DSA/tree/master/0127-word-ladder) |
+| [0207-course-schedule](https://github.com/PragyanPrakhar/DSA/tree/master/0207-course-schedule) |
 | [0433-minimum-genetic-mutation](https://github.com/PragyanPrakhar/DSA/tree/master/0433-minimum-genetic-mutation) |
 | [0542-01-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/PragyanPrakhar/DSA/tree/master/0547-number-of-provinces) |
@@ -224,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/PragyanPrakhar/DSA/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/PragyanPrakhar/DSA/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/PragyanPrakhar/DSA/tree/master/0801-is-graph-bipartite) |
 ## Math
@@ -234,4 +237,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2271-rearrange-array-elements-by-sign](https://github.com/PragyanPrakhar/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/PragyanPrakhar/DSA/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
