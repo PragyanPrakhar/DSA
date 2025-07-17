@@ -1,23 +1,23 @@
 class Pair {
-    String word;
+    String str;
     int level;
 
-    Pair(String word, int level) {
-        this.word = word;
+    Pair(String str, int level) {
+        this.str = str;
         this.level = level;
     }
 }
 
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        Queue<Pair> q = new LinkedList<>();
         HashSet<String> hs = new HashSet<>();
-        for (String word : wordList) {
-            hs.add(word);
+        for (String s : wordList) {
+            hs.add(s);
         }
-        q.add(new Pair(beginWord, 1));
+        Queue<Pair> q = new LinkedList<>();
+        q.add(new Pair(beginWord,1));
         while (!q.isEmpty()) {
-            String word = q.peek().word;
+            String word = q.peek().str;
             int level = q.peek().level;
             q.remove();
             if (word.equals(endWord))
@@ -26,14 +26,15 @@ class Solution {
                 char wordArray[] = word.toCharArray();
                 for (char ch = 'a'; ch <= 'z'; ch++) {
                     wordArray[i] = ch;
-                    String replacedWord = new String(wordArray);
-                    if (hs.contains(replacedWord)) {
-                        q.add(new Pair(replacedWord, level + 1));
-                        hs.remove(replacedWord);
+                    String newWord = new String(wordArray);
+                    if (hs.contains(newWord)) {
+                        q.add(new Pair(newWord, level + 1));
+                        hs.remove(newWord);
                     }
                 }
             }
         }
         return 0;
+
     }
 }
