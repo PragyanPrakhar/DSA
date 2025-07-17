@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/PragyanPrakhar/DSA/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/PragyanPrakhar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/PragyanPrakhar/DSA/tree/master/0424-longest-repeating-character-replacement) |
+| [0433-minimum-genetic-mutation](https://github.com/PragyanPrakhar/DSA/tree/master/0433-minimum-genetic-mutation) |
 | [0567-permutation-in-string](https://github.com/PragyanPrakhar/DSA/tree/master/0567-permutation-in-string) |
 ## Divide and Conquer
 |  |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/PragyanPrakhar/DSA/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/PragyanPrakhar/DSA/tree/master/0127-word-ladder) |
 | [0424-longest-repeating-character-replacement](https://github.com/PragyanPrakhar/DSA/tree/master/0424-longest-repeating-character-replacement) |
+| [0433-minimum-genetic-mutation](https://github.com/PragyanPrakhar/DSA/tree/master/0433-minimum-genetic-mutation) |
 | [0567-permutation-in-string](https://github.com/PragyanPrakhar/DSA/tree/master/0567-permutation-in-string) |
 ## Greedy
 |  |
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/PragyanPrakhar/DSA/tree/master/0127-word-ladder) |
+| [0433-minimum-genetic-mutation](https://github.com/PragyanPrakhar/DSA/tree/master/0433-minimum-genetic-mutation) |
 | [0542-01-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/PragyanPrakhar/DSA/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/PragyanPrakhar/DSA/tree/master/0733-flood-fill) |
