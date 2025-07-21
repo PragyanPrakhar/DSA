@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/PragyanPrakhar/DSA/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/PragyanPrakhar/DSA/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/PragyanPrakhar/DSA/tree/master/1753-path-with-minimum-effort) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/PragyanPrakhar/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/PragyanPrakhar/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Hash Table
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/PragyanPrakhar/DSA/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/PragyanPrakhar/DSA/tree/master/0347-top-k-frequent-elements) |
+| [1753-path-with-minimum-effort](https://github.com/PragyanPrakhar/DSA/tree/master/1753-path-with-minimum-effort) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -87,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/PragyanPrakhar/DSA/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/PragyanPrakhar/DSA/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/PragyanPrakhar/DSA/tree/master/1753-path-with-minimum-effort) |
 ## Union Find
 |  |
 | ------- |
@@ -94,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/PragyanPrakhar/DSA/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/PragyanPrakhar/DSA/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/PragyanPrakhar/DSA/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/PragyanPrakhar/DSA/tree/master/1753-path-with-minimum-effort) |
 ## Two Pointers
 |  |
 | ------- |
@@ -206,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/PragyanPrakhar/DSA/tree/master/0792-binary-search) |
 | [0853-most-profit-assigning-work](https://github.com/PragyanPrakhar/DSA/tree/master/0853-most-profit-assigning-work) |
 | [0907-koko-eating-bananas](https://github.com/PragyanPrakhar/DSA/tree/master/0907-koko-eating-bananas) |
+| [1753-path-with-minimum-effort](https://github.com/PragyanPrakhar/DSA/tree/master/1753-path-with-minimum-effort) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -219,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/PragyanPrakhar/DSA/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/PragyanPrakhar/DSA/tree/master/0820-find-eventual-safe-states) |
 | [1073-number-of-enclaves](https://github.com/PragyanPrakhar/DSA/tree/master/1073-number-of-enclaves) |
+| [1753-path-with-minimum-effort](https://github.com/PragyanPrakhar/DSA/tree/master/1753-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -233,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/PragyanPrakhar/DSA/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/PragyanPrakhar/DSA/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1753-path-with-minimum-effort](https://github.com/PragyanPrakhar/DSA/tree/master/1753-path-with-minimum-effort) |
 ## Graph
 |  |
 | ------- |
