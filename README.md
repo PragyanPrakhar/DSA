@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/PragyanPrakhar/DSA/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/PragyanPrakhar/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0146-lru-cache](https://github.com/PragyanPrakhar/DSA/tree/master/0146-lru-cache) |
+| [0205-isomorphic-strings](https://github.com/PragyanPrakhar/DSA/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/PragyanPrakhar/DSA/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/PragyanPrakhar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/PragyanPrakhar/DSA/tree/master/0424-longest-repeating-character-replacement) |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/PragyanPrakhar/DSA/tree/master/0022-generate-parentheses) |
 | [0125-valid-palindrome](https://github.com/PragyanPrakhar/DSA/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/PragyanPrakhar/DSA/tree/master/0127-word-ladder) |
+| [0205-isomorphic-strings](https://github.com/PragyanPrakhar/DSA/tree/master/0205-isomorphic-strings) |
 | [0424-longest-repeating-character-replacement](https://github.com/PragyanPrakhar/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0433-minimum-genetic-mutation](https://github.com/PragyanPrakhar/DSA/tree/master/0433-minimum-genetic-mutation) |
 | [0443-string-compression](https://github.com/PragyanPrakhar/DSA/tree/master/0443-string-compression) |
