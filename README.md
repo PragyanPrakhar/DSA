@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/PragyanPrakhar/DSA/tree/master/0042-trapping-rain-water) |
 | [0086-partition-list](https://github.com/PragyanPrakhar/DSA/tree/master/0086-partition-list) |
 | [0125-valid-palindrome](https://github.com/PragyanPrakhar/DSA/tree/master/0125-valid-palindrome) |
+| [0443-string-compression](https://github.com/PragyanPrakhar/DSA/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/PragyanPrakhar/DSA/tree/master/0567-permutation-in-string) |
 | [0853-most-profit-assigning-work](https://github.com/PragyanPrakhar/DSA/tree/master/0853-most-profit-assigning-work) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/PragyanPrakhar/DSA/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/PragyanPrakhar/DSA/tree/master/0127-word-ladder) |
 | [0424-longest-repeating-character-replacement](https://github.com/PragyanPrakhar/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0433-minimum-genetic-mutation](https://github.com/PragyanPrakhar/DSA/tree/master/0433-minimum-genetic-mutation) |
+| [0443-string-compression](https://github.com/PragyanPrakhar/DSA/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/PragyanPrakhar/DSA/tree/master/0567-permutation-in-string) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/PragyanPrakhar/DSA/tree/master/1302-delete-characters-to-make-fancy-string) |
 ## Greedy
