@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/PragyanPrakhar/DSA/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/PragyanPrakhar/DSA/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/PragyanPrakhar/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0035-search-insert-position](https://github.com/PragyanPrakhar/DSA/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/PragyanPrakhar/DSA/tree/master/0036-valid-sudoku) |
 | [0042-trapping-rain-water](https://github.com/PragyanPrakhar/DSA/tree/master/0042-trapping-rain-water) |
 | [0064-minimum-path-sum](https://github.com/PragyanPrakhar/DSA/tree/master/0064-minimum-path-sum) |
@@ -226,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/PragyanPrakhar/DSA/tree/master/0035-search-insert-position) |
 | [0074-search-a-2d-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0792-binary-search](https://github.com/PragyanPrakhar/DSA/tree/master/0792-binary-search) |
 | [0853-most-profit-assigning-work](https://github.com/PragyanPrakhar/DSA/tree/master/0853-most-profit-assigning-work) |
