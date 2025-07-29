@@ -2,27 +2,15 @@ class Solution {
     public int rob(int[] nums) {
         int dp[]=new int[nums.length];
         Arrays.fill(dp,-1);
-        dp[0]=nums[0];
-        for(int i=1;i<nums.length;i++){
-            int pick=nums[i];
-            if(i>1){
-                pick+=dp[i-2];
-            }
-            int not_pick=dp[i-1];
-            // not_pick=dp
-            dp[i]=Math.max(pick,not_pick);
-        }
-        return dp[nums.length-1];
-        // int n=nums.length;
-        // return soln(n-1,nums);
+        return recurr(nums,0,dp);
     }
-    private int soln(int ind,int nums[]){
-        if(ind<0) return 0;
-        if(ind==0){
-            return nums[ind];
+    private int recurr(int nums[],int index,int dp[]){
+        if(index>nums.length-1){
+            return 0;
         }
-        int take=nums[ind]+soln(ind-2,nums);
-        int not_take=soln(ind-1,nums);
-        return Math.max(take,not_take);
+        if(dp[index]!=-1) return dp[index];
+        int pick=nums[index]+recurr(nums,index+2,dp);
+        int not_pick=0+recurr(nums,index+1,dp);
+        return dp[index]=Math.max(pick,not_pick);
     }
 }
