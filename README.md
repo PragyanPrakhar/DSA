@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/PragyanPrakhar/DSA/tree/master/0011-container-with-most-water) |
+| [0670-maximum-swap](https://github.com/PragyanPrakhar/DSA/tree/master/0670-maximum-swap) |
 | [0853-most-profit-assigning-work](https://github.com/PragyanPrakhar/DSA/tree/master/0853-most-profit-assigning-work) |
 ## Dynamic Programming
 |  |
@@ -284,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0670-maximum-swap](https://github.com/PragyanPrakhar/DSA/tree/master/0670-maximum-swap) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/PragyanPrakhar/DSA/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Simulation
 |  |
