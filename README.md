@@ -213,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0086-partition-list](https://github.com/PragyanPrakhar/DSA/tree/master/0086-partition-list) |
 | [0146-lru-cache](https://github.com/PragyanPrakhar/DSA/tree/master/0146-lru-cache) |
+| [0206-reverse-linked-list](https://github.com/PragyanPrakhar/DSA/tree/master/0206-reverse-linked-list) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/PragyanPrakhar/DSA/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Database
 |  |
@@ -308,4 +309,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/PragyanPrakhar/DSA/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/PragyanPrakhar/DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/PragyanPrakhar/DSA/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/PragyanPrakhar/DSA/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
