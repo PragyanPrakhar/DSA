@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/PragyanPrakhar/DSA/tree/master/0042-trapping-rain-water) |
 | [0064-minimum-path-sum](https://github.com/PragyanPrakhar/DSA/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/0074-search-a-2d-matrix) |
+| [0088-merge-sorted-array](https://github.com/PragyanPrakhar/DSA/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/PragyanPrakhar/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/PragyanPrakhar/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0198-house-robber](https://github.com/PragyanPrakhar/DSA/tree/master/0198-house-robber) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/PragyanPrakhar/DSA/tree/master/0015-3sum) |
+| [0088-merge-sorted-array](https://github.com/PragyanPrakhar/DSA/tree/master/0088-merge-sorted-array) |
 | [0217-contains-duplicate](https://github.com/PragyanPrakhar/DSA/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/PragyanPrakhar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0853-most-profit-assigning-work](https://github.com/PragyanPrakhar/DSA/tree/master/0853-most-profit-assigning-work) |
@@ -121,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/PragyanPrakhar/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/PragyanPrakhar/DSA/tree/master/0042-trapping-rain-water) |
 | [0086-partition-list](https://github.com/PragyanPrakhar/DSA/tree/master/0086-partition-list) |
+| [0088-merge-sorted-array](https://github.com/PragyanPrakhar/DSA/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/PragyanPrakhar/DSA/tree/master/0125-valid-palindrome) |
 | [0443-string-compression](https://github.com/PragyanPrakhar/DSA/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/PragyanPrakhar/DSA/tree/master/0567-permutation-in-string) |
