@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/PragyanPrakhar/DSA/tree/master/0042-trapping-rain-water) |
 | [0064-minimum-path-sum](https://github.com/PragyanPrakhar/DSA/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/PragyanPrakhar/DSA/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/PragyanPrakhar/DSA/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/PragyanPrakhar/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/PragyanPrakhar/DSA/tree/master/0128-longest-consecutive-sequence) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/PragyanPrakhar/DSA/tree/master/0022-generate-parentheses) |
+| [0078-subsets](https://github.com/PragyanPrakhar/DSA/tree/master/0078-subsets) |
 ## Linked List
 |  |
 | ------- |
@@ -320,4 +322,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/PragyanPrakhar/DSA/tree/master/0023-merge-k-sorted-lists) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/PragyanPrakhar/DSA/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
