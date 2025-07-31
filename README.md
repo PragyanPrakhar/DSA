@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0433-minimum-genetic-mutation](https://github.com/PragyanPrakhar/DSA/tree/master/0433-minimum-genetic-mutation) |
 | [0443-string-compression](https://github.com/PragyanPrakhar/DSA/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/PragyanPrakhar/DSA/tree/master/0567-permutation-in-string) |
+| [0583-delete-operation-for-two-strings](https://github.com/PragyanPrakhar/DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/PragyanPrakhar/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/PragyanPrakhar/DSA/tree/master/1302-delete-characters-to-make-fancy-string) |
 ## Greedy
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/PragyanPrakhar/DSA/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/PragyanPrakhar/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0542-01-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/0542-01-matrix) |
+| [0583-delete-operation-for-two-strings](https://github.com/PragyanPrakhar/DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/PragyanPrakhar/DSA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0954-maximum-sum-circular-subarray](https://github.com/PragyanPrakhar/DSA/tree/master/0954-maximum-sum-circular-subarray) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/PragyanPrakhar/DSA/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
