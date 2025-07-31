@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/PragyanPrakhar/DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0347-top-k-frequent-elements](https://github.com/PragyanPrakhar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0954-maximum-sum-circular-subarray](https://github.com/PragyanPrakhar/DSA/tree/master/0954-maximum-sum-circular-subarray) |
 ## Sorting
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/PragyanPrakhar/DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/PragyanPrakhar/DSA/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/PragyanPrakhar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0744-network-delay-time](https://github.com/PragyanPrakhar/DSA/tree/master/0744-network-delay-time) |
@@ -211,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/PragyanPrakhar/DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0086-partition-list](https://github.com/PragyanPrakhar/DSA/tree/master/0086-partition-list) |
 | [0146-lru-cache](https://github.com/PragyanPrakhar/DSA/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/PragyanPrakhar/DSA/tree/master/0206-reverse-linked-list) |
@@ -313,4 +316,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/PragyanPrakhar/DSA/tree/master/0206-reverse-linked-list) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/PragyanPrakhar/DSA/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
