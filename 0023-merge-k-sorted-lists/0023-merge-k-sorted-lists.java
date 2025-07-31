@@ -1,21 +1,35 @@
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        if (lists == null || lists.length == 0) return null;
+        return mergeRange(lists, 0, lists.length - 1);
+    }
 
-        for (ListNode ls : lists) {
-            while (ls != null) {
-                pq.add(ls.val);
-                ls = ls.next;
-            }
-        }
+    private ListNode mergeRange(ListNode[] lists, int start, int end) {
+        if (start == end) return lists[start];
 
+        int mid = start + (end - start) / 2;
+        ListNode left = mergeRange(lists, start, mid);
+        ListNode right = mergeRange(lists, mid + 1, end);
+        return mergeTwoLists(left, right);
+    }
+
+    private ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(-1);
-        ListNode current = dummy;
+        ListNode tail = dummy;
 
-        while (!pq.isEmpty()) {
-            current.next = new ListNode(pq.poll());
-            current = current.next;
+        while (l1 != null && l2 != null) {
+            if (l1.val < l2.val) {
+                tail.next = l1;
+                l1 = l1.next;
+            } else {
+                tail.next = l2;
+                l2 = l2.next;
+            }
+            tail = tail.next;
         }
+
+        // One list is exhausted, attach the remaining
+        tail.next = (l1 != null) ? l1 : l2;
 
         return dummy.next;
     }
