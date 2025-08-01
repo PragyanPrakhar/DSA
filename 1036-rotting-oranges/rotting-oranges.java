@@ -1,62 +1,52 @@
-class Node {
+class Pair{
     int row;
     int col;
     int time;
-
-    Node(int row, int col, int time) {
-        this.row = row;
-        this.col = col;
-        this.time = time;
+    Pair(int row,int col,int time){
+        this.row=row;
+        this.col=col;
+        this.time=time;
     }
 }
-
 class Solution {
     public int orangesRotting(int[][] grid) {
-        int rows = grid.length;
-        int cols = grid[0].length;
-        int totalFreshOranges = 0;
-        int vis[][] = new int[rows][cols];
-        Queue<Node> q = new LinkedList<>();
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
+        Queue<Pair> q=new LinkedList<>();
+        boolean vis[][]=new boolean[grid.length][grid[0].length];
+        int freshOranges=0;
+        for(int i=0;i<grid.length;i++){
+            for(int j=0;j<grid[0].length;j++){
                 if(grid[i][j]==2){
-                    q.add(new Node(i,j,0));
-                    vis[i][j]=2;
+                    q.offer(new Pair(i,j,0));
+                    vis[i][j]=true;
+                    
                 }
-                else{
-                    vis[i][j]=0;
-                }
-
-                if(grid[i][j]==1){
-                    totalFreshOranges++;
+                else if(grid[i][j]==1){
+                    freshOranges++;
                 }
             }
         }
-        // boolean vis[][] = new boolean[rows][cols];
-        int delRow[] = { -1, 0, +1, 0 };
-        int delCol[] = { 0, +1, 0, -1 };
-        int tm=0;
         int cnt=0;
-        while (!q.isEmpty()) {
-            Node node = q.peek();
-            int row = node.row;
-            int col = node.col;
-            int time = node.time;
-            tm=Math.max(time,tm);
+        int tm=0;
+        while(!q.isEmpty()){
+            int row=q.peek().row;
+            int col=q.peek().col;
+            int time=q.peek().time;
+            tm=Math.max(tm,time);
             q.remove();
-            // vis[row][col] = true;
-            for(int i=0;i<4;i++){
-                int nRow=row+delRow[i];
-                int nCol=col+delCol[i];
-                if(nRow>=0 && nCol>=0 && nRow<rows && nCol<cols && vis[nRow][nCol]==0 && grid[nRow][nCol]==1){
-                    vis[nRow][nCol]=2;
-                    q.offer(new Node(nRow,nCol,time+1));
-                    cnt++;
+            for(int i=-1;i<=1;i++){
+                for(int j=-1;j<=1;j++){
+                    int delRow=row+i;
+                    int delCol=col+j;
+                    if((i==0 || j==0) && delRow>=0 && delRow<grid.length && delCol>=0 && delCol<grid[0].length && !vis[delRow][delCol] && grid[delRow][delCol]==1){
+                        q.offer(new Pair(delRow,delCol,time+1));
+                        vis[delRow][delCol]=true;
+                        // grid[delRow][delCol]=2;
+                        cnt++;
+                    }
                 }
             }
         }
-        if(cnt != totalFreshOranges) return -1;
+        if(freshOranges!=cnt) return -1;
         return tm;
-
     }
 }
