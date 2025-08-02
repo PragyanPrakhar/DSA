@@ -1,24 +1,21 @@
 class Solution {
     public int minPathSum(int[][] grid) {
-        // Trying out all the paths --> Recursive Approach
-        int m = grid.length;
-        int n = grid[0].length;
-        int dp[][] = new int[m][n];
-        for (int[] arr : dp) {
-            Arrays.fill(arr, -1);
-        }
-        dp[0][0] = 1;
-        return finding(m - 1, n - 1, grid, dp);
-    }
+        int dp[][]=new int[grid.length][grid[0].length];
+        for(int ar[]:dp) Arrays.fill(ar,-1);
+        return solve(grid,0,0,dp);
 
-    private int finding(int m, int n, int[][] grid,int[][] dp) {
-        if (m < 0 || n < 0)
+    }
+    private int solve(int grid[][],int row,int col , int dp[][]){
+        if(row > grid.length-1 || col > grid[0].length-1){
             return Integer.MAX_VALUE;
-        if (m == 0 && n == 0)
-            return grid[m][n];
-        if(dp[m][n]!=-1) return dp[m][n];
-        int up = finding(m - 1, n, grid,dp);
-        int left = finding(m, n - 1, grid,dp);
-        return dp[m][n]=(grid[m][n] + Math.min(up, left));
+        }
+        if(row==grid.length-1 && col==grid[0].length-1){
+            return grid[row][col];
+        }
+        if(dp[row][col]!=-1) return dp[row][col];
+
+        int down=solve(grid,row+1,col,dp);
+        int right=solve(grid,row,col+1,dp);
+        return dp[row][col]=grid[row][col]+Math.min(down,right);
     }
 }
