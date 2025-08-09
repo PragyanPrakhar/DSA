@@ -1,69 +1,88 @@
-//{ Driver Code Starts
-
-
-import java.io.*;
-import java.lang.*;
 import java.util.*;
 
-public class Main {
-    static BufferedReader br;
-    static PrintWriter ot;
+class DisjointSet {
+    List<Integer> parent = new ArrayList<>();
+    List<Integer> rank = new ArrayList<>();
+    List<Integer> size = new ArrayList<>();
 
-    public static void main(String args[]) throws IOException {
-        br = new BufferedReader(new InputStreamReader(System.in));
-        ot = new PrintWriter(System.out);
-        int t = Integer.parseInt(br.readLine().trim());
-        while (t-- > 0) {
-            int V = Integer.parseInt(br.readLine().trim());
-            int E = Integer.parseInt(br.readLine().trim());
-            List<List<int[]>> list = new ArrayList<>();
-            for (int i = 0; i < V; i++) list.add(new ArrayList<>());
-            for (int i = 0; i < E; i++) {
-                String[] s = br.readLine().trim().split(" ");
-                int a = Integer.parseInt(s[0]);
-                int b = Integer.parseInt(s[1]);
-                int c = Integer.parseInt(s[2]);
-                list.get(a).add(new int[] {b, c});
-                list.get(b).add(new int[] {a, c});
-            }
-            ot.println(new Solution().spanningTree(V, E, list));
-
-            ot.println("~");
+    public DisjointSet(int n) {
+        for (int i = 0; i < n; i++) {
+            parent.add(i);
+            size.add(1);
+            rank.add(0);
         }
-        ot.close();
+    }
+
+    public int findUltimateParent(int node) {
+        if (node == parent.get(node)) return node;
+        int ultimateParent = findUltimateParent(parent.get(node));
+        parent.set(node, ultimateParent); // path compression
+        return ultimateParent;
+    }
+
+    public void unionByRank(int u, int v) {
+        int pu = findUltimateParent(u);
+        int pv = findUltimateParent(v);
+        if (pu == pv) return;
+
+        if (rank.get(pu) > rank.get(pv)) {
+            parent.set(pv, pu);
+        } else if (rank.get(pu) < rank.get(pv)) {
+            parent.set(pu, pv);
+        } else {
+            parent.set(pv, pu);
+            rank.set(pu, rank.get(pu) + 1);
+        }
+    }
+
+    public void unionBySize(int u, int v) {
+        int pu = findUltimateParent(u);
+        int pv = findUltimateParent(v);
+        if (pu == pv) return;
+
+        if (size.get(pu) > size.get(pv)) {
+            parent.set(pv, pu);
+            size.set(pu, size.get(pu) + size.get(pv));
+        } else {
+            parent.set(pu, pv);
+            size.set(pv, size.get(pu) + size.get(pv));
+        }
     }
 }
-// } Driver Code Ends
 
+class Pair {
+    int src;
+    int dest;
+    int weight;
+    Pair(int src, int dest, int weight) {
+        this.src = src;
+        this.dest = dest;
+        this.weight = weight;
+    }
+}
 
-// User function Template for Java
 class Solution {
-    static int spanningTree(int V, int E, List<List<int[]>> adj) {
-        boolean[] visited = new boolean[V];
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[1] - b[1]); // [vertex, weight]
-        pq.add(new int[]{0, 0}); // Start from vertex 0 with weight 0
-        int totalWeight = 0;
+    public int spanningTree(int V, int[][] edges) {
+        // Step 1: Store edges in list
+        List<Pair> edgeList = new ArrayList<>();
+        for (int[] e : edges) {
+            edgeList.add(new Pair(e[0], e[1], e[2]));
+        }
 
-        while (!pq.isEmpty()) {
-            int[] curr = pq.poll();
-            int u = curr[0];
-            int wt = curr[1];
+        // Step 2: Sort edges by weight
+        edgeList.sort(Comparator.comparingInt(a -> a.weight));
 
-            if (visited[u]) continue;
+        // Step 3: Kruskal's Algorithm
+        DisjointSet ds = new DisjointSet(V);
+        int mstWeight = 0;
 
-            visited[u] = true;
-            totalWeight += wt;
-
-            for (int[] neighbor : adj.get(u)) {
-                int v = neighbor[0];
-                int weight = neighbor[1];
-
-                if (!visited[v]) {
-                    pq.add(new int[]{v, weight});
-                }
+        for (Pair edge : edgeList) {
+            if (ds.findUltimateParent(edge.src) != ds.findUltimateParent(edge.dest)) {
+                mstWeight += edge.weight;
+                ds.unionByRank(edge.src, edge.dest); // or unionBySize
             }
         }
 
-        return totalWeight;
+        return mstWeight;
     }
 }
