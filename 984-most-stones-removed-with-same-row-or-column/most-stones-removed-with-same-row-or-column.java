@@ -1,25 +1,35 @@
+class Pair{
+    int row;
+    int col;
+    Pair(int row,int col){
+        this.row=row;
+        this.col=col;
+    }
+}
 class Solution {
     public int removeStones(int[][] stones) {
-        int n = stones.length;
-        int totalRemovable = 0;
-        boolean vis[] = new boolean[n];
-        
-        for (int i = 0; i < n; i++) {
-            if (!vis[i]) {
-                int[] cnt = new int[]{0}; // Wrapper for count
-                dfs(stones, n, vis, i, cnt);
-                totalRemovable += cnt[0] - 1;
+        boolean vis[]=new boolean[stones.length];
+        int components=0;
+        for(int i=0;i<stones.length;i++){
+            if(!vis[i]) {
+                bfs(stones,vis,i);
+                components++;
             }
         }
-        return totalRemovable;
-    }
+        return stones.length-components;
 
-    private void dfs(int[][] stones, int n, boolean[] vis, int node, int[] cnt) {
-        vis[node] = true;
-        cnt[0]++;
-        for (int i = 0; i < n; i++) {
-            if (!vis[i] && (stones[node][0] == stones[i][0] || stones[node][1] == stones[i][1])) {
-                dfs(stones, n, vis, i, cnt);
+    }
+    private void bfs(int stones[][],boolean vis[],int index){
+        Queue<Integer> q=new LinkedList<>();
+        q.add(index);
+        vis[index]=true;
+        while(!q.isEmpty()){
+            int curr=q.poll();
+            for(int i=0;i<stones.length;i++){
+                if(!vis[i] && (stones[i][0] == stones[curr][0] || stones[i][1] == stones[curr][1])){
+                    vis[i]=true;
+                    q.add(i);
+                }
             }
         }
     }
