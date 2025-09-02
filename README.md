@@ -330,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0670-maximum-swap](https://github.com/PragyanPrakhar/DSA/tree/master/0670-maximum-swap) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/PragyanPrakhar/DSA/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+| [3279-alice-and-bob-playing-flower-game](https://github.com/PragyanPrakhar/DSA/tree/master/3279-alice-and-bob-playing-flower-game) |
 ## Simulation
 |  |
 | ------- |
