@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/PragyanPrakhar/DSA/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/PragyanPrakhar/DSA/tree/master/0042-trapping-rain-water) |
 | [0064-minimum-path-sum](https://github.com/PragyanPrakhar/DSA/tree/master/0064-minimum-path-sum) |
+| [0070-climbing-stairs](https://github.com/PragyanPrakhar/DSA/tree/master/0070-climbing-stairs) |
 | [0120-triangle](https://github.com/PragyanPrakhar/DSA/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/PragyanPrakhar/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/PragyanPrakhar/DSA/tree/master/0198-house-robber) |
@@ -330,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/PragyanPrakhar/DSA/tree/master/0070-climbing-stairs) |
 | [0670-maximum-swap](https://github.com/PragyanPrakhar/DSA/tree/master/0670-maximum-swap) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/PragyanPrakhar/DSA/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/PragyanPrakhar/DSA/tree/master/3279-alice-and-bob-playing-flower-game) |
@@ -371,4 +373,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/PragyanPrakhar/DSA/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/PragyanPrakhar/DSA/tree/master/0144-binary-tree-preorder-traversal) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/PragyanPrakhar/DSA/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
