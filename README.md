@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0807-custom-sort-string](https://github.com/PragyanPrakhar/DSA/tree/master/0807-custom-sort-string) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/PragyanPrakhar/DSA/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1813-maximum-erasure-value](https://github.com/PragyanPrakhar/DSA/tree/master/1813-maximum-erasure-value) |
+| [2174-next-greater-numerically-balanced-number](https://github.com/PragyanPrakhar/DSA/tree/master/2174-next-greater-numerically-balanced-number) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/PragyanPrakhar/DSA/tree/master/0347-top-k-frequent-elements) |
+| [2174-next-greater-numerically-balanced-number](https://github.com/PragyanPrakhar/DSA/tree/master/2174-next-greater-numerically-balanced-number) |
 ## Quickselect
 |  |
 | ------- |
@@ -240,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/PragyanPrakhar/DSA/tree/master/0022-generate-parentheses) |
 | [0078-subsets](https://github.com/PragyanPrakhar/DSA/tree/master/0078-subsets) |
+| [2174-next-greater-numerically-balanced-number](https://github.com/PragyanPrakhar/DSA/tree/master/2174-next-greater-numerically-balanced-number) |
 ## Linked List
 |  |
 | ------- |
@@ -335,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/PragyanPrakhar/DSA/tree/master/0070-climbing-stairs) |
 | [0670-maximum-swap](https://github.com/PragyanPrakhar/DSA/tree/master/0670-maximum-swap) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/PragyanPrakhar/DSA/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+| [2174-next-greater-numerically-balanced-number](https://github.com/PragyanPrakhar/DSA/tree/master/2174-next-greater-numerically-balanced-number) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/PragyanPrakhar/DSA/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/PragyanPrakhar/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Simulation
@@ -388,4 +392,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/PragyanPrakhar/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
+## Enumeration
+|  |
+| ------- |
+| [2174-next-greater-numerically-balanced-number](https://github.com/PragyanPrakhar/DSA/tree/master/2174-next-greater-numerically-balanced-number) |
 <!---LeetCode Topics End-->
