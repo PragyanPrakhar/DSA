@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/PragyanPrakhar/DSA/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/PragyanPrakhar/DSA/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/PragyanPrakhar/DSA/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1753-path-with-minimum-effort](https://github.com/PragyanPrakhar/DSA/tree/master/1753-path-with-minimum-effort) |
 | [1813-maximum-erasure-value](https://github.com/PragyanPrakhar/DSA/tree/master/1813-maximum-erasure-value) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/PragyanPrakhar/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
