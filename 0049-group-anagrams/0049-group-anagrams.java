@@ -1,29 +1,26 @@
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        HashMap<String, List<String>> hm = new HashMap<>();
-
-        for (String word : strs) {
-            int[] freq = new int[26]; // assuming only lowercase letters
-
-            for (char c : word.toCharArray()) {
-                freq[c - 'a']++;
+        List<List<String>> ans=new ArrayList<>();
+        HashMap<String,List<String>> hm=new HashMap<>();
+        for(String str:strs){
+            char[] ch=str.toCharArray();
+            Arrays.sort(ch);
+            String sortedString=new String(ch);
+            System.out.println(sortedString);
+            if(hm.containsKey(sortedString)){
+                hm.get(sortedString).add(str);
             }
-
-            // Build a unique string key based on frequency
-            StringBuilder sb = new StringBuilder();
-            for (int count : freq) {
-                sb.append('#'); // separator to avoid ambiguity like 11 vs 1#1
-                sb.append(count);
+            else{
+                List<String> newList=new ArrayList<>();
+                newList.add(str);
+                // hm.put(sortedString, newList);
+                hm.put(sortedString,newList);
             }
-
-            String key = sb.toString();
-
-            if (!hm.containsKey(key)) {
-                hm.put(key, new ArrayList<>());
-            }
-            hm.get(key).add(word);
         }
-
-        return new ArrayList<>(hm.values());
+        for(List<String> ls:hm.values()){
+           ans.add(ls);
+        }
+        return ans;
+        
     }
 }
