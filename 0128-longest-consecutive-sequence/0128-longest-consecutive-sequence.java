@@ -6,15 +6,14 @@ class Solution {
         for(int num:hs){
             if(!hs.contains(num-1)){
                 int currentStreak=1;
-                int currentNum=num;
-                while(hs.contains(currentNum+1)){
-                    currentNum++;
+                int currentNumber=num;
+                while(hs.contains(currentNumber+1)){
+                    currentNumber++;
                     currentStreak++;
                 }
-                ans=Math.max(currentStreak,ans);
+                ans=Math.max(ans,currentStreak);
             }
         }
         return ans;
-
     }
 }
