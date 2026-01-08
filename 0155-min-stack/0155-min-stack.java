@@ -1,35 +1,51 @@
 class MinStack {
-    Stack<Integer> st1;
-    Stack<Integer> st2;
-
+    Stack<Integer> st;
+    Stack<Integer> trackMin;
     public MinStack() {
-        st1=new Stack<>();
-        st2=new Stack<>();
+        st=new Stack<>();
+        trackMin=new Stack<>();
     }
     
     public void push(int val) {
-        st1.push(val);
-        if(!st2.isEmpty() && st2.peek()>=val){
-            st2.push(val);
+        st.push(val);
+        ArrayList<Integer> arr=new ArrayList<>();
+        int min=-1;
+        if(!trackMin.isEmpty()){
+            while(!trackMin.isEmpty() && trackMin.peek()<val){
+                arr.add(trackMin.pop());
+            }
         }
-        else if(st2.isEmpty()){
-            st2.push(val);
+        Collections.sort(arr);
+        trackMin.push(val);
+        for(int i=arr.size()-1;i>=0;i--){
+            trackMin.push(arr.get(i));
         }
-        
     }
     
     public void pop() {
-        int val=st1.pop();
-        if(st2.peek()==val) st2.pop();
+        int poppedValue=st.pop();
+        ArrayList<Integer> arr=new ArrayList<>();
+        while(trackMin.peek()!=poppedValue && !trackMin.isEmpty()){
+            arr.add(trackMin.pop());
+        }
+        trackMin.pop();
+        while(!trackMin.isEmpty()){
+            arr.add(trackMin.pop());
+        }
+        Collections.sort(arr);
+        for(int i=arr.size()-1;i>=0;i--){
+            trackMin.push(arr.get(i));
+        }
+
 
     }
     
     public int top() {
-        return st1.peek();
+        return st.peek();       
     }
     
     public int getMin() {
-        return st2.peek();
+        return trackMin.peek();
     }
 }
 
