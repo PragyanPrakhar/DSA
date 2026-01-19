@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/PragyanPrakhar/DSA/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/PragyanPrakhar/DSA/tree/master/0792-binary-search) |
 | [0853-most-profit-assigning-work](https://github.com/PragyanPrakhar/DSA/tree/master/0853-most-profit-assigning-work) |
+| [0853-car-fleet](https://github.com/PragyanPrakhar/DSA/tree/master/0853-car-fleet) |
 | [0904-fruit-into-baskets](https://github.com/PragyanPrakhar/DSA/tree/master/0904-fruit-into-baskets) |
 | [0907-koko-eating-bananas](https://github.com/PragyanPrakhar/DSA/tree/master/0907-koko-eating-bananas) |
 | [0954-maximum-sum-circular-subarray](https://github.com/PragyanPrakhar/DSA/tree/master/0954-maximum-sum-circular-subarray) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/PragyanPrakhar/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0807-custom-sort-string](https://github.com/PragyanPrakhar/DSA/tree/master/0807-custom-sort-string) |
 | [0853-most-profit-assigning-work](https://github.com/PragyanPrakhar/DSA/tree/master/0853-most-profit-assigning-work) |
+| [0853-car-fleet](https://github.com/PragyanPrakhar/DSA/tree/master/0853-car-fleet) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/PragyanPrakhar/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/PragyanPrakhar/DSA/tree/master/2274-keep-multiplying-found-values-by-two) |
 ## Heap (Priority Queue)
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/PragyanPrakhar/DSA/tree/master/0496-next-greater-element-i) |
 | [0735-asteroid-collision](https://github.com/PragyanPrakhar/DSA/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/PragyanPrakhar/DSA/tree/master/0739-daily-temperatures) |
+| [0853-car-fleet](https://github.com/PragyanPrakhar/DSA/tree/master/0853-car-fleet) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/PragyanPrakhar/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Monotonic Stack
 |  |
@@ -234,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/PragyanPrakhar/DSA/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/PragyanPrakhar/DSA/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/PragyanPrakhar/DSA/tree/master/0739-daily-temperatures) |
+| [0853-car-fleet](https://github.com/PragyanPrakhar/DSA/tree/master/0853-car-fleet) |
 ## Sliding Window
 |  |
 | ------- |
