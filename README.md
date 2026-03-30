@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/PragyanPrakhar/DSA/tree/master/0907-koko-eating-bananas) |
 | [0954-maximum-sum-circular-subarray](https://github.com/PragyanPrakhar/DSA/tree/master/0954-maximum-sum-circular-subarray) |
 | [1036-rotting-oranges](https://github.com/PragyanPrakhar/DSA/tree/master/1036-rotting-oranges) |
+| [1052-grumpy-bookstore-owner](https://github.com/PragyanPrakhar/DSA/tree/master/1052-grumpy-bookstore-owner) |
 | [1073-number-of-enclaves](https://github.com/PragyanPrakhar/DSA/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/PragyanPrakhar/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/PragyanPrakhar/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/PragyanPrakhar/DSA/tree/master/0567-permutation-in-string) |
 | [0904-fruit-into-baskets](https://github.com/PragyanPrakhar/DSA/tree/master/0904-fruit-into-baskets) |
+| [1052-grumpy-bookstore-owner](https://github.com/PragyanPrakhar/DSA/tree/master/1052-grumpy-bookstore-owner) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/PragyanPrakhar/DSA/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1813-maximum-erasure-value](https://github.com/PragyanPrakhar/DSA/tree/master/1813-maximum-erasure-value) |
 ## Queue
