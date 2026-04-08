@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/PragyanPrakhar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/PragyanPrakhar/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0496-next-greater-element-i](https://github.com/PragyanPrakhar/DSA/tree/master/0496-next-greater-element-i) |
+| [0525-contiguous-array](https://github.com/PragyanPrakhar/DSA/tree/master/0525-contiguous-array) |
 | [0542-01-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/PragyanPrakhar/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0733-flood-fill](https://github.com/PragyanPrakhar/DSA/tree/master/0733-flood-fill) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0433-minimum-genetic-mutation](https://github.com/PragyanPrakhar/DSA/tree/master/0433-minimum-genetic-mutation) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/PragyanPrakhar/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/PragyanPrakhar/DSA/tree/master/0496-next-greater-element-i) |
+| [0525-contiguous-array](https://github.com/PragyanPrakhar/DSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/PragyanPrakhar/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/PragyanPrakhar/DSA/tree/master/0567-permutation-in-string) |
 | [0807-custom-sort-string](https://github.com/PragyanPrakhar/DSA/tree/master/0807-custom-sort-string) |
@@ -132,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/PragyanPrakhar/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/PragyanPrakhar/DSA/tree/master/0238-product-of-array-except-self) |
+| [0525-contiguous-array](https://github.com/PragyanPrakhar/DSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/PragyanPrakhar/DSA/tree/master/0560-subarray-sum-equals-k) |
 ## Matrix
 |  |
