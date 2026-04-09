@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/PragyanPrakhar/DSA/tree/master/0239-sliding-window-maximum) |
 | [0300-longest-increasing-subsequence](https://github.com/PragyanPrakhar/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0347-top-k-frequent-elements](https://github.com/PragyanPrakhar/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0416-partition-equal-subset-sum](https://github.com/PragyanPrakhar/DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/PragyanPrakhar/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0496-next-greater-element-i](https://github.com/PragyanPrakhar/DSA/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/PragyanPrakhar/DSA/tree/master/0525-contiguous-array) |
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/PragyanPrakhar/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/PragyanPrakhar/DSA/tree/master/0198-house-robber) |
 | [0300-longest-increasing-subsequence](https://github.com/PragyanPrakhar/DSA/tree/master/0300-longest-increasing-subsequence) |
+| [0416-partition-equal-subset-sum](https://github.com/PragyanPrakhar/DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/PragyanPrakhar/DSA/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/PragyanPrakhar/DSA/tree/master/0583-delete-operation-for-two-strings) |
