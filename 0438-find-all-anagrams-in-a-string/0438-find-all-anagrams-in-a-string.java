@@ -16,19 +16,28 @@ class Solution {
             char inChar = s.charAt(end);
             currentWindowFreqMap.put(inChar, currentWindowFreqMap.getOrDefault(inChar, 0) + 1);
 
-            if (end - start + 1 > windowLength) {
-                char outChar = s.charAt(start);
-                int count = currentWindowFreqMap.get(outChar) - 1;
-                if (count == 0)
-                    currentWindowFreqMap.remove(outChar);
-                else
-                    currentWindowFreqMap.put(outChar, count);
+            if (end - start + 1 == windowLength) {
+                // char outChar = s.charAt(start);
+                // int count = currentWindowFreqMap.get(outChar) - 1;
+                // if (count == 0)
+                //     currentWindowFreqMap.remove(outChar);
+                // else
+                //     currentWindowFreqMap.put(outChar, count);
+                // start++;
+                if (currentWindowFreqMap.equals(pFreqMap)) {
+                    ans.add(start);
+                }
+                currentWindowFreqMap.put(s.charAt(start), currentWindowFreqMap.get(s.charAt(start)) - 1);
+                if (currentWindowFreqMap.get(s.charAt(start))== 0) {
+                    currentWindowFreqMap.remove(s.charAt(start));
+                }
                 start++;
+
             }
 
-            if (end - start + 1 == windowLength && currentWindowFreqMap.equals(pFreqMap)) {
-                ans.add(start);
-            }
+            // if (end - start + 1 == windowLength && currentWindowFreqMap.equals(pFreqMap)) {
+            //     ans.add(start);
+            // }
         }
         return ans;
     }
