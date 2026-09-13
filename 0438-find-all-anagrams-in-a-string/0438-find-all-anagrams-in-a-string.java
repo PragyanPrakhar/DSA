@@ -1,38 +1,35 @@
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
-        ArrayList<Integer> ans=new ArrayList<>();
-        if(p.length()>s.length()) return ans;
+        List<Integer> ans = new ArrayList<>();
+        int n = s.length(), windowLength = p.length();
+        if (n < windowLength)
+            return ans;
 
-        int freqS[]=new int[26];
-        int freqP[]=new int[26];
-
-        for(char ch:p.toCharArray()){
-            freqP[ch-'a']++;
+        HashMap<Character, Integer> pFreqMap = new HashMap<>();
+        for (char c : p.toCharArray()) {
+            pFreqMap.put(c, pFreqMap.getOrDefault(c, 0) + 1);
         }
 
-        for(int i=0;i<p.length();i++){
-            freqS[s.charAt(i)-'a']++;
-        }
+        HashMap<Character, Integer> currentWindowFreqMap = new HashMap<>();
+        int start = 0;
+        for (int end = 0; end < n; end++) {
+            char inChar = s.charAt(end);
+            currentWindowFreqMap.put(inChar, currentWindowFreqMap.getOrDefault(inChar, 0) + 1);
 
-        for(int i=p.length();i<s.length();i++){
-            if(isEqual(freqS,freqP)) {
-                ans.add(i-p.length());
+            if (end - start + 1 > windowLength) {
+                char outChar = s.charAt(start);
+                int count = currentWindowFreqMap.get(outChar) - 1;
+                if (count == 0)
+                    currentWindowFreqMap.remove(outChar);
+                else
+                    currentWindowFreqMap.put(outChar, count);
+                start++;
             }
-            freqS[s.charAt(i)-'a']++;
-            freqS[s.charAt(i-p.length())-'a']--;
-        }
-        if(isEqual(freqS,freqP)){
-            ans.add(s.length()-p.length());
+
+            if (end - start + 1 == windowLength && currentWindowFreqMap.equals(pFreqMap)) {
+                ans.add(start);
+            }
         }
         return ans;
-    }
-
-    private boolean isEqual(int freqS[],int freqP[]){
-        for(int i=0;i<26;i++){
-            if(freqS[i]!=freqP[i]){
-                return false;
-            }
-        }
-        return true;
     }
 }
