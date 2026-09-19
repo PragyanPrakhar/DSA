@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/PragyanPrakhar/DSA/tree/master/0904-fruit-into-baskets) |
 | [0907-koko-eating-bananas](https://github.com/PragyanPrakhar/DSA/tree/master/0907-koko-eating-bananas) |
 | [0954-maximum-sum-circular-subarray](https://github.com/PragyanPrakhar/DSA/tree/master/0954-maximum-sum-circular-subarray) |
+| [1004-max-consecutive-ones-iii](https://github.com/PragyanPrakhar/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1036-rotting-oranges](https://github.com/PragyanPrakhar/DSA/tree/master/1036-rotting-oranges) |
 | [1052-grumpy-bookstore-owner](https://github.com/PragyanPrakhar/DSA/tree/master/1052-grumpy-bookstore-owner) |
 | [1073-number-of-enclaves](https://github.com/PragyanPrakhar/DSA/tree/master/1073-number-of-enclaves) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/PragyanPrakhar/DSA/tree/master/0238-product-of-array-except-self) |
 | [0525-contiguous-array](https://github.com/PragyanPrakhar/DSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/PragyanPrakhar/DSA/tree/master/0560-subarray-sum-equals-k) |
+| [1004-max-consecutive-ones-iii](https://github.com/PragyanPrakhar/DSA/tree/master/1004-max-consecutive-ones-iii) |
 ## Matrix
 |  |
 | ------- |
@@ -262,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/PragyanPrakhar/DSA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/PragyanPrakhar/DSA/tree/master/0567-permutation-in-string) |
 | [0904-fruit-into-baskets](https://github.com/PragyanPrakhar/DSA/tree/master/0904-fruit-into-baskets) |
+| [1004-max-consecutive-ones-iii](https://github.com/PragyanPrakhar/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1052-grumpy-bookstore-owner](https://github.com/PragyanPrakhar/DSA/tree/master/1052-grumpy-bookstore-owner) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/PragyanPrakhar/DSA/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1813-maximum-erasure-value](https://github.com/PragyanPrakhar/DSA/tree/master/1813-maximum-erasure-value) |
@@ -329,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/PragyanPrakhar/DSA/tree/master/0792-binary-search) |
 | [0853-most-profit-assigning-work](https://github.com/PragyanPrakhar/DSA/tree/master/0853-most-profit-assigning-work) |
 | [0907-koko-eating-bananas](https://github.com/PragyanPrakhar/DSA/tree/master/0907-koko-eating-bananas) |
+| [1004-max-consecutive-ones-iii](https://github.com/PragyanPrakhar/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1753-path-with-minimum-effort](https://github.com/PragyanPrakhar/DSA/tree/master/1753-path-with-minimum-effort) |
 ## Doubly-Linked List
 |  |
