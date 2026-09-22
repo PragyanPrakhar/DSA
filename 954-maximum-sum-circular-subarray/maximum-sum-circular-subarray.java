@@ -1,39 +1,34 @@
 class Solution {
     public int maxSubarraySumCircular(int[] nums) {
-        int non_wrapperSum=kdanes(nums);
-        boolean isAllNegative=checkNegative(nums);
-        if(isAllNegative){
-            int max=nums[0];
-            for(int i=1;i<nums.length;i++){
-                if(nums[i]>max) max=nums[i];
-            }
-            return max;
-        }
-        int sum=0;
-        for(int i=0;i<nums.length;i++){
-            sum+=nums[i];
-            nums[i]=-nums[i];
-        }
-        int wrapper_sum=sum+kdanes(nums);
-        return Math.max(non_wrapperSum,wrapper_sum);
-    }
-    private boolean checkNegative(int nums[]){
-        int cnt=0;
-        for(int i=0;i<nums.length;i++){
-            if(nums[i]>=0) return false;
-        }
-        return true;
-    }
-    private int kdanes(int nums[]){
-        int cs=0;
-        int ms=Integer.MIN_VALUE;
-        for(int i=0;i<nums.length;i++){
-            cs+=nums[i];
-            ms=Math.max(ms,cs);
-            if(cs<0){
-                cs=0;
+
+        int totalSum = 0;
+
+        int currentMax = nums[0];
+        int maxSum = nums[0];
+
+        int currentMin = nums[0];
+        int minSum = nums[0];
+
+        for (int i = 0; i < nums.length; i++) {
+
+            totalSum += nums[i];
+
+            if (i > 0) {
+                currentMax = Math.max(nums[i], currentMax + nums[i]);
+                maxSum = Math.max(maxSum, currentMax);
+
+                currentMin = Math.min(nums[i], currentMin + nums[i]);
+                minSum = Math.min(minSum, currentMin);
             }
         }
-        return ms;
+
+        // All numbers are negative
+        if (maxSum < 0) {
+            return maxSum;
+        }
+
+        int circularMax = totalSum - minSum;
+
+        return Math.max(maxSum, circularMax);
     }
 }
