@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/PragyanPrakhar/DSA/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/PragyanPrakhar/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/PragyanPrakhar/DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/PragyanPrakhar/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/PragyanPrakhar/DSA/tree/master/0198-house-robber) |
 | [0209-minimum-size-subarray-sum](https://github.com/PragyanPrakhar/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/PragyanPrakhar/DSA/tree/master/0217-contains-duplicate) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0086-partition-list](https://github.com/PragyanPrakhar/DSA/tree/master/0086-partition-list) |
 | [0088-merge-sorted-array](https://github.com/PragyanPrakhar/DSA/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/PragyanPrakhar/DSA/tree/master/0125-valid-palindrome) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/PragyanPrakhar/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0443-string-compression](https://github.com/PragyanPrakhar/DSA/tree/master/0443-string-compression) |
 | [0567-permutation-in-string](https://github.com/PragyanPrakhar/DSA/tree/master/0567-permutation-in-string) |
 | [0853-most-profit-assigning-work](https://github.com/PragyanPrakhar/DSA/tree/master/0853-most-profit-assigning-work) |
@@ -327,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0035-search-insert-position](https://github.com/PragyanPrakhar/DSA/tree/master/0035-search-insert-position) |
 | [0074-search-a-2d-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/0074-search-a-2d-matrix) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/PragyanPrakhar/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/PragyanPrakhar/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0300-longest-increasing-subsequence](https://github.com/PragyanPrakhar/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0792-binary-search](https://github.com/PragyanPrakhar/DSA/tree/master/0792-binary-search) |
