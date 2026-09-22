@@ -8,7 +8,7 @@ class Solution {
 
         int currentMin = nums[0];
         int minSum = nums[0];
-
+        // The approach is like we need to find the minimum sum and then we have to subtract it from the total sum to get the required result , and yes if the maxSum is negative only then it means all the elements of the array are negative , then we will return the maxSum directly.
         for (int i = 0; i < nums.length; i++) {
 
             totalSum += nums[i];
