@@ -208,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/PragyanPrakhar/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/PragyanPrakhar/DSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/PragyanPrakhar/DSA/tree/master/1302-delete-characters-to-make-fancy-string) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/PragyanPrakhar/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/PragyanPrakhar/DSA/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Greedy
 |  |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0853-car-fleet](https://github.com/PragyanPrakhar/DSA/tree/master/0853-car-fleet) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/PragyanPrakhar/DSA/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/PragyanPrakhar/DSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/PragyanPrakhar/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -475,4 +477,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/PragyanPrakhar/DSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/PragyanPrakhar/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 <!---LeetCode Topics End-->
