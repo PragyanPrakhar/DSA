@@ -1,23 +1,18 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
-        List<String> ans=new ArrayList<>();
-        generate(n,ans,0,0,"");
-        return ans;
+        List<String> res=new ArrayList<>();
+        generate(res,n,"",0,0);
+        return res;
     }
-
-    private void generate(int n,List<String> ans,int open,int close,String s){
-        if(open==n && close==n){
-            ans.add(s);
+    void generate(List<String> res , int n , String temp , int open , int closed){
+        if(open == n && closed == n){
+            res.add(temp);
             return;
         }
+        if(closed > open) return;
+        if(open > n || closed > n) return;
 
-        if(close > open) return;
-        if(open>n || close>n) return;
-
-        generate(n,ans,open+1,close,s+"(");
-        generate(n,ans,open,close+1,s+")");
-
-
+        generate(res,n,temp+"(",open+1,closed);
+        generate(res,n,temp+")",open,closed+1);
     }
-
 }
