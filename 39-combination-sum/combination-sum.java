@@ -1,32 +1,25 @@
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        HashSet<List<Integer>> hs=new HashSet<>();
-        List<Integer> ls=new ArrayList<>();
-        recurr(candidates,target,0,0,hs,ls);
         List<List<Integer>> ans=new ArrayList<>();
-        for(List<Integer> lss:hs){
-            ans.add(lss);
-        }
+        List<Integer> temp = new ArrayList<>();
+        recurr(ans,candidates,target,0,temp,0);
         return ans;
-
-        
     }
-    private void recurr(int candidates[],int target,int sum,int idx,HashSet<List<Integer>> uniques,List<Integer> ls){
-        if(idx>=candidates.length) return;
-        if(sum > target) return;
-        // if(idx == candidates.length-1){
-        //     if(sum==target) uniques.add(new ArrayList<>(ls));
-        //     return;
-        // }
-
-        if(sum==target){
-            uniques.add(new ArrayList<>(ls));
+    private void recurr(List<List<Integer>> ans , int candidates[] , int target , int sum , List<Integer> temp , int index){
+        if(sum>target) return;
+        if(index==candidates.length){
+            if(sum==target){
+                ans.add(new ArrayList<>(temp));
+            }
             return;
         }
-
-        ls.add(candidates[idx]);
-        recurr(candidates,target,sum+candidates[idx],idx,uniques,ls);
-        ls.remove(ls.size()-1);
-        recurr(candidates,target,sum,idx+1,uniques,ls);
+        if(target==sum){
+            ans.add(new ArrayList<>(temp));
+            return;
+        }
+        temp.add(candidates[index]);
+        recurr(ans,candidates,target,sum+candidates[index],temp,index);
+        temp.remove(temp.size()-1);
+        recurr(ans,candidates,target,sum,temp,index+1);
     }
 }
