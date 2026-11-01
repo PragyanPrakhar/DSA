@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/PragyanPrakhar/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/PragyanPrakhar/DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/PragyanPrakhar/DSA/tree/master/0435-non-overlapping-intervals) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/PragyanPrakhar/DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0496-next-greater-element-i](https://github.com/PragyanPrakhar/DSA/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/PragyanPrakhar/DSA/tree/master/0525-contiguous-array) |
 | [0542-01-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/0542-01-matrix) |
@@ -408,6 +409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/PragyanPrakhar/DSA/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/PragyanPrakhar/DSA/tree/master/0070-climbing-stairs) |
 | [0371-sum-of-two-integers](https://github.com/PragyanPrakhar/DSA/tree/master/0371-sum-of-two-integers) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/PragyanPrakhar/DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0670-maximum-swap](https://github.com/PragyanPrakhar/DSA/tree/master/0670-maximum-swap) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/PragyanPrakhar/DSA/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/PragyanPrakhar/DSA/tree/master/2174-next-greater-numerically-balanced-number) |
