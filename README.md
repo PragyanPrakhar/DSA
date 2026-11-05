@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/PragyanPrakhar/DSA/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0496-next-greater-element-i](https://github.com/PragyanPrakhar/DSA/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/PragyanPrakhar/DSA/tree/master/0525-contiguous-array) |
+| [0526-beautiful-arrangement](https://github.com/PragyanPrakhar/DSA/tree/master/0526-beautiful-arrangement) |
 | [0542-01-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/PragyanPrakhar/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0733-flood-fill](https://github.com/PragyanPrakhar/DSA/tree/master/0733-flood-fill) |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/PragyanPrakhar/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/PragyanPrakhar/DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/PragyanPrakhar/DSA/tree/master/0435-non-overlapping-intervals) |
+| [0526-beautiful-arrangement](https://github.com/PragyanPrakhar/DSA/tree/master/0526-beautiful-arrangement) |
 | [0542-01-matrix](https://github.com/PragyanPrakhar/DSA/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/PragyanPrakhar/DSA/tree/master/0583-delete-operation-for-two-strings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/PragyanPrakhar/DSA/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
@@ -312,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/PragyanPrakhar/DSA/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/PragyanPrakhar/DSA/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/PragyanPrakhar/DSA/tree/master/0078-subsets) |
+| [0526-beautiful-arrangement](https://github.com/PragyanPrakhar/DSA/tree/master/0526-beautiful-arrangement) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/PragyanPrakhar/DSA/tree/master/2174-next-greater-numerically-balanced-number) |
 ## Linked List
 |  |
@@ -450,6 +453,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/PragyanPrakhar/DSA/tree/master/0078-subsets) |
 | [0371-sum-of-two-integers](https://github.com/PragyanPrakhar/DSA/tree/master/0371-sum-of-two-integers) |
+| [0526-beautiful-arrangement](https://github.com/PragyanPrakhar/DSA/tree/master/0526-beautiful-arrangement) |
 ## Tree
 |  |
 | ------- |
@@ -486,4 +490,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/PragyanPrakhar/DSA/tree/master/0022-generate-parentheses) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/PragyanPrakhar/DSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/PragyanPrakhar/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+## Bitmask
+|  |
+| ------- |
+| [0526-beautiful-arrangement](https://github.com/PragyanPrakhar/DSA/tree/master/0526-beautiful-arrangement) |
 <!---LeetCode Topics End-->
