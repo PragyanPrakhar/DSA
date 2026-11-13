@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1262-greatest-sum-divisible-by-three](https://github.com/PragyanPrakhar/DSA/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/PragyanPrakhar/DSA/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/PragyanPrakhar/DSA/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
+| [1718-construct-the-lexicographically-largest-valid-sequence](https://github.com/PragyanPrakhar/DSA/tree/master/1718-construct-the-lexicographically-largest-valid-sequence) |
 | [1753-path-with-minimum-effort](https://github.com/PragyanPrakhar/DSA/tree/master/1753-path-with-minimum-effort) |
 | [1813-maximum-erasure-value](https://github.com/PragyanPrakhar/DSA/tree/master/1813-maximum-erasure-value) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/PragyanPrakhar/DSA/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -315,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/PragyanPrakhar/DSA/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/PragyanPrakhar/DSA/tree/master/0078-subsets) |
 | [0526-beautiful-arrangement](https://github.com/PragyanPrakhar/DSA/tree/master/0526-beautiful-arrangement) |
+| [1718-construct-the-lexicographically-largest-valid-sequence](https://github.com/PragyanPrakhar/DSA/tree/master/1718-construct-the-lexicographically-largest-valid-sequence) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/PragyanPrakhar/DSA/tree/master/2174-next-greater-numerically-balanced-number) |
 ## Linked List
 |  |
